@@ -18,4 +18,6 @@
 //= require angular-ui-router/release/angular-ui-router
 //= require oclazyload/dist/ocLazyLoad
 //= require materialize/dist/js/materialize
+//= require angular-rails-templates
 //= require_tree .
+//= require_tree ../templates

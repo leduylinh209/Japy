@@ -3,7 +3,8 @@
  */
 angular.module('JPweb-fe', [
     'oc.lazyLoad',
-    'ui.router'
+    'ui.router',
+    'templates'
 ])
     .constant('API_URL_VOCALB', 'http://localhost:3000/JPweb-be/')
     .constant('API_URL_GRAMMAR', 'http://localhost:3000/JPweb-be/')
@@ -14,13 +15,13 @@ angular.module('JPweb-fe', [
         $stateProvider
             .state('main', {
                 url: '/main',
-                templateUrl: 'components/main/mainView.html',
+                templateUrl: 'main.html',
                 controller: 'mainController',
                 resolve: {
                     loadMyFiles: function ($ocLazyLoad) {
                         return $ocLazyLoad.load(
                             {
-                                files: ['mainController.js']
+                                files: ['/assets/mainController.js']
                             }
                         )
                     }
