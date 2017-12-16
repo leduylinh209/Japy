@@ -1,0 +1,51 @@
+a.hover:hover {
+    font-weight: bold;
+}
+li.hover:hover {
+    background-color: #66bb6a;
+}
+li.hover:active {
+    background-color: #0AA5DF;
+}
+div.main-index {
+    box-shadow: 5px 5px 5px #bdbdbd;
+}
+body {
+    background-color: #e0e0e0;
+}
+div.body {
+    background-color: white;
+}
+div.title {
+    height: 60px;
+}
+p.title {
+    font-weight: bold;
+    text-align: center;
+}
+div.size {
+    height: 425px;
+}
+div.sizemodal {
+    height: 400px;
+}
+div.sizemodal2 {
+    height: 600px;
+}
+p.meanTitle {
+    font-weight: bold;
+    font-size: 200%;
+}
+p.meanContent {
+    font-size: 150%;
+}
+div.image_size {
+    height: 100%;
+}
+p.testTitle {
+    font-weight: bold;
+    font-size: 150%;
+}
+a.title {
+    text-align: center;
+}

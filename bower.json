@@ -1,0 +1,29 @@
+{
+  "name": "Japy",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nam <nambn1996@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nambn/Japy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.7",
+    "oclazyload": "^1.1.0",
+    "bootstrap": "^3.3.7",
+    "angular-ui-router": "^1.0.11",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "materialize": "^0.100.2",
+    "angular-messages": "^1.6.7",
+    "css": "^2.2.1",
+    "js": "^6.0.1"
+  }
+}

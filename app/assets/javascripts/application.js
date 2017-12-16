@@ -12,4 +12,10 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require bootstrap/dist/js/bootstrap.min
+//= require jquery/dist/jquery
+//= require angular/angular
+//= require angular-ui-router/release/angular-ui-router
+//= require oclazyload/dist/ocLazyLoad
+//= require materialize/dist/js/materialize
 //= require_tree .
